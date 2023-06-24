@@ -38,7 +38,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--letter-spacing);
-    margin-right: 76 px;
+    margin-right: 76px;
 }
 .link-logo-footer {
     font-family: "Raleway", sans-serif;
@@ -74,7 +74,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--link-color);
-    padding: 24 0;
+    padding: 24px 0;
 }
 .container {
     width: 1158px;
@@ -129,7 +129,8 @@ a {
 }
 .hero {
     background-color: var(--link-color);
-    padding: 188px 0;  
+    padding: 188px 0; 
+    margin: 0 auto; 
 }
 .hero-h {
     font-size: 56px;
@@ -158,8 +159,25 @@ a {
 .btn:focus {
     background-color:  #404BBF;
 }
+.feature {
+    padding: 120px;
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 .feature-p {
-    list-style: none; 
+    list-style: none;
+    display: flex;
+    gap: 24px; 
 }
 .strategy {
     font-weight: 500;
@@ -176,6 +194,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    width: calc((100%-72px)/4);
 }
 .strategy-p {
     font-size: 16px;
@@ -238,6 +257,8 @@ a {
 }
 .h3-p {
    padding: 32px 16px; 
+   border: 1px solid var( --color-border);
+   border-top: none;
 }
 .footer {
     background-color: var(--link-color);
@@ -265,7 +286,7 @@ a {
     color: var(--letter-spacing );
     background-color: var( --color-footer);
     cursor: pointer;
-    padding: 12px 24px 12px;
+    padding: 12px 24px;
     border: 1px solid var(--color-border);
     border-radius: 4px;
 }
@@ -276,7 +297,9 @@ a {
     border: 1px solid transparent;
 }
 .section-portfolio {
-    padding: 120px 0;
+    padding-top: 96px;
+    padding-bottom: 120px;
+
 }
 .item-img {
     list-style: none;
@@ -289,6 +312,11 @@ a {
 }
 .item-img-li {
     width: calc((100% - 48px) / 3);
+}
+.div-a {
+    padding: 32px 16px;
+    border: 1px solid var(--color-border);
+    border-top: none;
 }
 .a-img {
     text-decoration: none;
