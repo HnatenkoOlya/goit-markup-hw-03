@@ -304,7 +304,6 @@ a {
 .section-portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
-
 }
 .item-img {
     list-style: none;
@@ -312,16 +311,15 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    border: 1px solid var(--color-border);
-    background: var(--brand-color);
+    padding: 0px;
 }
 .item-img-li {
     width: calc((100% - 48px) / 3);
 }
 .div-a {
     padding: 32px 16px;
-    border: 1px solid var(--color-border);
     border-top: none;
+    border: 1px solid #e7e9fc;
 }
 .a-img {
     text-decoration: none;
@@ -330,8 +328,6 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid var(--color-border);
-    background: var( --color-footer);
 }
 .img-h-p {
     font-weight: 500;
