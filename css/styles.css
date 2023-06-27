@@ -318,8 +318,8 @@ a {
 }
 .div-a {
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .a-img {
     text-decoration: none;
@@ -328,6 +328,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    flex-direction: column;
 }
 .img-h-p {
     font-weight: 500;
@@ -336,10 +337,12 @@ a {
     letter-spacing: 0.02em;
     color: var(--link-color);
     margin-bottom: 8px;
+    text-align: center;
 }
 .img-p-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--link-color-add);
+    text-align: center;
 }
